@@ -1,7 +1,13 @@
-# RandomArray_Swift
-随机排序一个数组。(en : Disrupt an array, random)
-## Usage
-``` Swift
+//
+//  main.swift
+//  RandomArray_Swift
+//
+//  Created by 仇弘扬 on 16/4/27.
+//  Copyright © 2016年 仇弘扬. All rights reserved.
+//
+
+import Foundation
+
 // Array
 var array = ["1", "2", "3", "4", "5", "6", "7", "8"]
 array = array.randomObjects_ck()
@@ -16,6 +22,3 @@ print(array_ns_mu)
 var array_ns : NSArray = ["1", "2", "3", "4", "5", "6", "7", "8"]
 array_ns = array_ns.randomObjects_ck()
 print(array_ns)
-```
-## Objective-C
-[https://github.com/CocodyChou/RandomArray_OC](https://github.com/CocodyChou/RandomArray_OC)
